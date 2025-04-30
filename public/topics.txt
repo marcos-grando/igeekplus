@@ -1,0 +1,32 @@
+
+map() → transforma cada item e retorna um novo array
+filter() → retorna só os itens que passam em uma condição
+find() → retorna o primeiro item que satisfaz uma condição
+some() → retorna true se algum item satisfaz a condição
+every() → retorna true se todos satisfazem a condição
+reduce() → reduz os itens a um valor só (ex: soma)
+includes() → verifica se um valor existe no array
+
+📦 Objetos
+Object.keys(obj) → retorna um array com as chaves
+Object.values(obj) → retorna um array com os valores
+Object.entries(obj) → retorna um array de [chave, valor]
+
+📐 Strings
+toLowerCase() / toUpperCase()
+includes()
+split()
+trim()
+replace()
+
+⏳ Timers
+setTimeout(() => {...}, 1000)
+setInterval(() => {...}, 1000)
+clearTimeout() / clearInterval()
+
+⚙️ Outros úteis em React
+JSON.stringify() e JSON.parse()
+Array.isArray()
+Operador ternário condição ? valor1 : valor2
+Desestruturação const { nome } = props
+Spread/rest const novaLista = [...lista, novoItem]

@@ -1,0 +1,659 @@
+[
+    {
+        "id": 1,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/1-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/1-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Attack on Titan",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Drama",
+            "Fantasia"
+        ],
+        "desc": "Humanidade contra titãs gigantes devoradores de humanos.",
+        "text": "Em um mundo devastado por criaturas gigantes conhecidas como Titãs, a humanidade se refugia atrás de enormes muralhas para sobreviver. Eren Yeager, após testemunhar a destruição de sua cidade natal e a morte de sua mãe por um Titã, jura vingança e se alista no exército junto com seus amigos Mikasa e Armin. Conforme a trama avança, segredos obscuros sobre a origem dos Titãs e a verdadeira história da humanidade são revelados, desafiando tudo o que os personagens acreditavam ser verdade.",
+        "nota": 9.6,
+        "release": 2013
+    },
+    {
+        "id": 2,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/2-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/2-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Death Note",
+        "tipo": "anime",
+        "genre": [
+            "Suspense",
+            "Psicológico"
+        ],
+        "desc": "Um estudante encontra um caderno que mata quem tiver o nome escrito nele.",
+        "text": "Light Yagami, um estudante brilhante, encontra um caderno sobrenatural chamado Death Note, que permite matar qualquer pessoa cujo nome seja escrito nele, desde que o portador visualize o rosto da vítima. Decidido a eliminar criminosos e criar um mundo ideal, Light assume a identidade de 'Kira' e inicia uma série de assassinatos. No entanto, suas ações atraem a atenção de 'L', um detetive enigmático, dando início a um jogo psicológico intenso entre os dois.",
+        "nota": 9.0,
+        "release": 2006
+    },
+    {
+        "id": 3,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/3-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/3-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Naruto",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Aventura",
+            "Shounen"
+        ],
+        "desc": "Ninja sonha em se tornar o maior de sua vila.",
+        "text": "Naruto Uzumaki é um jovem ninja da Vila da Folha que carrega dentro de si a Raposa de Nove Caudas, uma criatura que atacou a vila anos atrás. Sonhando em se tornar Hokage, o líder da vila, Naruto enfrenta o preconceito dos moradores e busca reconhecimento. Ao lado de seus companheiros Sasuke e Sakura, e sob a tutela do sensei Kakashi, ele embarca em missões desafiadoras, enfrentando inimigos poderosos e descobrindo segredos sobre seu passado e seu destino.",
+        "nota": 8.3,
+        "release": 2002
+    },
+    {
+        "id": 4,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/4-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/4-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Demon Slayer",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Fantasia",
+            "Drama"
+        ],
+        "desc": "Jovem luta contra demônios após perder sua família.",
+        "text": "Tanjiro Kamado é um jovem bondoso que vive com sua família nas montanhas. Um dia, ao retornar para casa, encontra sua família massacrada por demônios, com exceção de sua irmã Nezuko, que foi transformada em um deles. Determinado a vingar sua família e encontrar uma cura para Nezuko, Tanjiro se junta ao Corpo de Caçadores de Demônios, enfrentando criaturas aterrorizantes e descobrindo segredos sombrios sobre o mundo em que vive.",
+        "nota": 8.7,
+        "release": 2019
+    },
+    {
+        "id": 5,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/5-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/5-wpp.jpg",
+        "categoria": "Animes",
+        "title": "One Piece",
+        "tipo": "anime",
+        "genre": [
+            "Aventura",
+            "Comédia",
+            "Ação"
+        ],
+        "desc": "Pirata busca um tesouro lendário.",
+        "text": "Monkey D. Luffy é um jovem que, após comer uma fruta mágica, ganha a habilidade de esticar seu corpo como borracha. Inspirado por seu ídolo, o pirata Shanks, Luffy parte em uma jornada pelo mar em busca do lendário tesouro One Piece, almejando se tornar o Rei dos Piratas. Ao longo do caminho, ele forma uma tripulação diversa, enfrenta inimigos formidáveis e desbrava ilhas misteriosas, tudo isso em um mundo repleto de aventuras e perigos.",
+        "nota": 8.9,
+        "release": 1999
+    },
+    {
+        "id": 6,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/6-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/6-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Fantasia",
+            "Drama"
+        ],
+        "desc": "Irmãos alquimistas buscam a pedra filosofal.",
+        "text": "Os irmãos Edward e Alphonse Elric são alquimistas talentosos que, após uma tentativa fracassada de ressuscitar sua mãe, sofrem consequências drásticas: Edward perde um braço e uma perna, enquanto Alphonse tem sua alma presa a uma armadura. Em busca de restaurar seus corpos, eles partem em uma jornada em busca da Pedra Filosofal, enfrentando inimigos poderosos e descobrindo conspirações que ameaçam todo o país.",
+        "nota": 9.1,
+        "release": 2009
+    },
+    {
+        "id": 7,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/7-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/7-wpp.jpg",
+        "categoria": "Animes",
+        "title": "My Hero Academia",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Superpoderes"
+        ],
+        "desc": "Jovem sem poderes sonha em ser herói.",
+        "text": "Em um mundo onde a maioria das pessoas nasce com superpoderes chamados 'individualidades', Izuku Midoriya é um dos poucos sem habilidades especiais. Mesmo assim, ele sonha em se tornar um herói. Sua vida muda ao conhecer All Might, o maior herói de todos, que compartilha com ele seu poder, o 'One For All'. Izuku então ingressa na U.A., uma escola para heróis em formação, onde enfrenta desafios, faz amizades e busca se tornar um verdadeiro herói.",
+        "nota": 8.1,
+        "release": 2016
+    },
+    {
+        "id": 8,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/8-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/8-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Jujutsu Kaisen",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Sobrenatural"
+        ],
+        "desc": "Estudante luta contra maldições.",
+        "text": "Yuji Itadori é um estudante do ensino médio com habilidades físicas excepcionais. Após encontrar um objeto amaldiçoado, ele se envolve no mundo das maldições e acaba engolindo um dedo do poderoso espírito maligno Sukuna, tornando-se seu hospedeiro. Para proteger os outros, Yuji ingressa na Escola Técnica de Jujutsu, onde aprende a controlar suas habilidades e enfrenta criaturas sobrenaturais ao lado de outros feiticeiros.",
+        "nota": 8.5,
+        "release": 2020
+    },
+    {
+        "id": 9,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/9-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/9-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Tokyo Ghoul",
+        "tipo": "anime",
+        "genre": [
+            "Terror",
+            "Drama"
+        ],
+        "desc": "Jovem se transforma em meio-ghoul.",
+        "text": "Em uma Tóquio alternativa, criaturas conhecidas como ghouls vivem entre os humanos, alimentando-se de carne humana para sobreviver. Ken Kaneki, um estudante universitário, após um encontro com uma ghoul, é transformado em um híbrido humano-ghoul. Agora, ele precisa se adaptar a essa nova realidade, enfrentando conflitos internos e externos, enquanto busca manter sua humanidade em um mundo dividido entre humanos e ghouls.",
+        "nota": 7.9,
+        "release": 2014
+    },
+    {
+        "id": 10,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/10-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/10-wpp.jpg",
+        "categoria": "Animes",
+        "title": "Mob Psycho 100",
+        "tipo": "anime",
+        "genre": [
+            "Ação",
+            "Comédia",
+            "Sobrenatural"
+        ],
+        "desc": "Garoto com poderes psíquicos tenta viver normalmente.",
+        "text": "Shigeo Kageyama, apelidado de 'Mob', é um estudante do ensino médio com poderes psíquicos extraordinários. Apesar de suas habilidades, ele deseja apenas levar uma vida normal e controlar suas emoções para evitar que seus poderes saiam do controle. Trabalhando como assistente de um autoproclamado médium, Mob enfrenta espíritos malignos e desafios pessoais, aprendendo sobre si mesmo e o mundo ao seu redor.",
+        "nota": 8.6,
+        "release": 2016
+    },
+    {
+        "id": 11,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/11-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/11-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Toy Story",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Aventura",
+            "Comédia"
+        ],
+        "desc": "Brinquedos ganham vida quando humanos não estão por perto.",
+        "text": "Em Toy Story, os brinquedos ganham vida quando os humanos não estão por perto. Woody, um caubói leal, é o brinquedo favorito de Andy, até que um novo brinquedo tecnológico, Buzz Lightyear, chega e ameaça tomar seu lugar. Inicialmente rivais, Woody e Buzz acabam se perdendo da casa de Andy e precisam trabalhar juntos para voltar a tempo. A história aborda amizade, ciúmes e aceitação, com muito humor e emoção em uma jornada inesquecível.",
+        "nota": 8.3,
+        "release": 1995
+    },
+    {
+        "id": 12,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/12-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/12-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Procurando Nemo",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Família",
+            "Aventura"
+        ],
+        "desc": "Peixe-palhaço atravessa o oceano para resgatar seu filho.",
+        "text": "Procurando Nemo acompanha a jornada de Marlin, um peixe-palhaço superprotetor, que atravessa o oceano para resgatar seu filho Nemo, capturado por mergulhadores. Com a ajuda da esquecida porém otimista Dory, Marlin enfrenta tubarões, águas-vivas e outros perigos. Enquanto isso, Nemo tenta escapar de um aquário. A animação combina aventura, humor e emoção, destacando o amor entre pai e filho e a importância da confiança e coragem.",
+        "nota": 8.1,
+        "release": 2003
+    },
+    {
+        "id": 13,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/13-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/13-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Shrek",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Comédia",
+            "Fantasia"
+        ],
+        "desc": "Um ogro parte em uma missão para recuperar seu pântano.",
+        "text": "Shrek é um ogro que vive tranquilamente em seu pântano até que sua solidão é perturbada por personagens de contos de fadas expulsos por um tirano. Para recuperar seu lar, ele aceita a missão de resgatar a princesa Fiona, com a ajuda do falante Burro. No entanto, Fiona guarda um segredo mágico. A animação subverte clichês dos contos de fadas, mistura humor ácido e mensagem sobre aceitação e amor verdadeiro, tornando-se um clássico moderno.",
+        "nota": 7.9,
+        "release": 2001
+    },
+    {
+        "id": 14,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/14-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/14-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Os Incríveis",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Ação",
+            "Família"
+        ],
+        "desc": "Família de super-heróis tenta viver uma vida normal.",
+        "text": "Os Incríveis conta a história de uma família de super-heróis vivendo disfarçada após o governo proibir suas atividades. Bob Parr, o Sr. Incrível, sente falta da ação e se envolve em uma missão secreta que o coloca em perigo. Sua esposa Helen, a Mulher-Elástica, e seus filhos precisam agir para salvá-lo. A trama mistura ação eletrizante e conflitos familiares, destacando o valor da união e da individualidade dentro da família.",
+        "nota": 8.0,
+        "release": 2004
+    },
+    {
+        "id": 15,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/15-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/15-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Divertida Mente",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Drama",
+            "Comédia"
+        ],
+        "desc": "As emoções de uma menina vivem dentro de sua mente.",
+        "text": "Divertida Mente mergulha na mente da jovem Riley, onde cinco emoções – Alegria, Tristeza, Medo, Raiva e Nojinho – controlam suas reações. Quando a família se muda para outra cidade, um desequilíbrio emocional ocorre, levando Alegria e Tristeza a se perderem no labirinto da mente. A jornada delas mostra como todas as emoções são importantes, especialmente a Tristeza. É uma animação sensível, educativa e profundamente tocante.",
+        "nota": 8.2,
+        "release": 2015
+    },
+    {
+        "id": 16,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/16-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/16-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Viva: A Vida é uma Festa",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Musical",
+            "Drama"
+        ],
+        "desc": "Garoto mexicano vai ao mundo dos mortos em busca de suas raízes.",
+        "text": "Viva: A Vida é uma Festa segue Miguel, um garoto mexicano apaixonado por música em uma família que a proíbe. No Dia dos Mortos, ele acidentalmente entra no mundo dos mortos, onde busca seu tataravô músico para obter sua bênção. Lá, descobre verdades sobre sua família e o valor da memória e das raízes. A animação celebra a cultura mexicana com cores vibrantes, músicas emocionantes e uma mensagem poderosa sobre identidade e ancestralidade.",
+        "nota": 8.4,
+        "release": 2017
+    },
+    {
+        "id": 17,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/17-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/17-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Up: Altas Aventuras",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Aventura",
+            "Drama"
+        ],
+        "desc": "Idoso voa com sua casa usando balões para cumprir promessa à falecida esposa.",
+        "text": "Up: Altas Aventuras acompanha Carl, um idoso viúvo que decide realizar o sonho de sua falecida esposa: visitar a América do Sul. Ele amarra milhares de balões à sua casa e parte em voo, mas descobre que está levando consigo o escoteiro Russell. Durante a jornada, enfrentam desafios e conhecem personagens inusitados, como um cão falante e um pássaro exótico. A animação emociona ao tratar temas como perda, sonhos e novas amizades.",
+        "nota": 8.2,
+        "release": 2009
+    },
+    {
+        "id": 18,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/18-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/18-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Zootopia",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Mistério",
+            "Comédia"
+        ],
+        "desc": "Coelha policial e raposa golpista resolvem mistério na cidade dos animais.",
+        "text": "Zootopia é uma cidade habitada por animais antropomórficos, onde a coelha Judy Hopps se torna a primeira policial de sua espécie. Determinada a provar seu valor, ela se une ao raposo vigarista Nick Wilde para resolver um caso de desaparecimento. A investigação revela uma conspiração que ameaça a paz entre predadores e presas. A animação aborda preconceito, estereótipos e empatia, em uma trama divertida e inteligente para todas as idades.",
+        "nota": 8.0,
+        "release": 2016
+    },
+    {
+        "id": 19,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/19-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/19-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Ratatouille",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Comédia"
+        ],
+        "desc": "Rato sonha em ser um grande chef de cozinha.",
+        "text": "Ratatouille acompanha Remy, um rato com paladar refinado que sonha em ser chef de cozinha. Em Paris, ele se une a Linguini, um jovem atrapalhado que trabalha em um famoso restaurante. Juntos, criam pratos incríveis, enquanto escondem a improvável parceria. A animação celebra a paixão pela culinária, a importância de seguir seus sonhos e como o talento pode surgir nos lugares mais inesperados, mesmo vindo de um rato em uma cozinha.",
+        "nota": 8.1,
+        "release": 2007
+    },
+    {
+        "id": 20,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/20-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/20-wpp.jpg",
+        "categoria": "Animações",
+        "title": "Homem-Aranha no Aranhaverso",
+        "tipo": "filme_animacao",
+        "genre": [
+            "Animação",
+            "Ação",
+            "Ficção Científica"
+        ],
+        "desc": "Adolescente ganha poderes e conhece versões alternativas do Homem-Aranha.",
+        "text": "Homem-Aranha no Aranhaverso apresenta Miles Morales, um adolescente que ganha poderes de aranha e descobre um multiverso com versões alternativas do herói. Ao lado de Peter B. Parker, Spider-Gwen e outros, Miles precisa impedir que um vilão destrua as realidades paralelas. Com estilo visual inovador, humor e coração, o filme redefine o gênero de super-heróis e celebra a diversidade e o crescimento pessoal.",
+        "nota": 8.9,
+        "release": 2018
+    },
+    {
+        "id": 21,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/21-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/21-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Matrix",
+        "tipo": "filme",
+        "genre": [
+            "Ficção Científica",
+            "Ação"
+        ],
+        "desc": "Hacker descobre realidade simulada controlada por máquinas.",
+        "text": "Matrix apresenta Thomas Anderson, um programador que vive uma vida dupla como o hacker Neo. Ele descobre que o mundo como conhece é uma simulação criada por máquinas para subjugar os humanos. Com a ajuda de Morpheus e Trinity, Neo entra na resistência contra o sistema opressor. O filme mistura ação estilizada com filosofia e questões existenciais, tornando-se um ícone da ficção científica e influenciando profundamente a cultura pop.",
+        "nota": 8.7,
+        "release": 1999
+    },
+    {
+        "id": 22,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/22-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/22-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Interestelar",
+        "tipo": "filme",
+        "genre": [
+            "Ficção Científica",
+            "Drama"
+        ],
+        "desc": "Exploradores viajam pelo espaço para salvar a humanidade.",
+        "text": "Interestelar acompanha Cooper, um ex-piloto da NASA que embarca em uma missão interestelar para encontrar um novo planeta habitável, após a Terra entrar em colapso ambiental. Viajando através de buracos de minhoca e enfrentando distorções temporais, Cooper precisa tomar decisões que afetam sua família e o destino da humanidade. Com visuais impressionantes e base científica realista, o filme explora amor, tempo e sobrevivência.",
+        "nota": 8.6,
+        "release": 2014
+    },
+    {
+        "id": 23,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/23-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/23-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "O Senhor dos Anéis: A Sociedade do Anel",
+        "tipo": "filme",
+        "genre": [
+            "Fantasia",
+            "Aventura"
+        ],
+        "desc": "Grupo parte para destruir um anel poderoso.",
+        "text": "O Senhor dos Anéis: A Sociedade do Anel inicia a épica jornada de Frodo Bolseiro, um hobbit encarregado de destruir um anel poderoso capaz de corromper até os mais nobres. Ao lado de uma sociedade composta por humanos, elfos, anões e outros hobbits, Frodo enfrenta criaturas sombrias e desafios mágicos. Baseado na obra de Tolkien, o filme é um marco da fantasia, com trilha sonora memorável, paisagens incríveis e narrativa grandiosa.",
+        "nota": 8.8,
+        "release": 2001
+    },
+    {
+        "id": 24,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/24-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/24-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Batman: O Cavaleiro das Trevas",
+        "tipo": "filme",
+        "genre": [
+            "Ação",
+            "Drama"
+        ],
+        "desc": "Batman enfrenta o Coringa, que causa o caos em Gotham.",
+        "text": "Batman: O Cavaleiro das Trevas mostra o herói de Gotham enfrentando o insano e imprevisível Coringa, que causa o caos para provar que todos são corruptíveis. Enquanto Batman tenta proteger a cidade, precisa lidar com dilemas éticos e sacrifícios pessoais. O filme, dirigido por Christopher Nolan, é considerado um dos melhores do gênero, com atuações memoráveis, especialmente a de Heath Ledger, e uma abordagem mais realista e sombria.",
+        "nota": 9.0,
+        "release": 2008
+    },
+    {
+        "id": 25,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/25-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/25-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Gladiador",
+        "tipo": "filme",
+        "genre": [
+            "Ação",
+            "Drama",
+            "Histórico"
+        ],
+        "desc": "General romano busca vingança como gladiador.",
+        "text": "Gladiador conta a história de Maximus, um general romano traído e forçado a viver como escravo após a morte do imperador. Tornando-se gladiador, ele busca vingança contra o novo governante, Commodus, enquanto conquista a admiração do povo nos combates. O filme mistura drama, ação e emoção, com cenas de batalhas épicas e uma narrativa sobre honra, perda e justiça. Vencedor de vários prêmios, é um clássico moderno do cinema histórico.",
+        "nota": 8.5,
+        "release": 2000
+    },
+    {
+        "id": 26,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/26-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/26-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Clube da Luta",
+        "tipo": "filme",
+        "genre": [
+            "Drama",
+            "Psicológico"
+        ],
+        "desc": "Homem conhece um vendedor de sabão e criam um clube secreto.",
+        "text": "Clube da Luta acompanha um narrador anônimo que sofre de insônia e leva uma vida monótona. Ao conhecer o enigmático Tyler Durden, ele mergulha em um mundo de rebeldia e violência, fundando um clube secreto onde homens extravasam suas frustrações. Com o tempo, a realidade se distorce e revelações perturbadoras surgem. O filme critica o consumismo e a identidade moderna, com uma reviravolta icônica e estética marcante.",
+        "nota": 8.8,
+        "release": 1999
+    },
+    {
+        "id": 27,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/27-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/27-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "O Grande Truque",
+        "tipo": "filme",
+        "genre": [
+            "Mistério",
+            "Drama"
+        ],
+        "desc": "Dois mágicos rivais levam suas disputas a níveis extremos.",
+        "text": "O Grande Truque apresenta a rivalidade entre dois mágicos, Robert Angier e Alfred Borden, na Londres vitoriana. Após uma tragédia, os dois passam a sabotar os espetáculos um do outro, entrando em uma disputa obsessiva por reconhecimento e superioridade. Com narrativa não linear, reviravoltas inteligentes e temas como ilusão, sacrifício e obsessão, o filme prende o espectador até o final surpreendente.",
+        "nota": 8.5,
+        "release": 2006
+    },
+    {
+        "id": 28,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/28-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/28-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Forrest Gump",
+        "tipo": "filme",
+        "genre": [
+            "Drama",
+            "Comédia"
+        ],
+        "desc": "Homem simples vive grandes momentos da história americana.",
+        "text": "Forrest Gump narra a vida de um homem simples e bondoso que, apesar de suas limitações cognitivas, se envolve em momentos históricos dos Estados Unidos. Desde a guerra do Vietnã até discursos importantes, Forrest vive aventuras extraordinárias, sempre motivado por seu amor por Jenny. O filme mistura humor, drama e romance com uma trilha sonora marcante, emocionando gerações com sua mensagem sobre destino e inocência.",
+        "nota": 8.8,
+        "release": 1994
+    },
+    {
+        "id": 29,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/29-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/29-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "A Origem",
+        "tipo": "filme",
+        "genre": [
+            "Ficção Científica",
+            "Ação"
+        ],
+        "desc": "Ladrões invadem sonhos para plantar ideias.",
+        "text": "A Origem apresenta Dom Cobb, um ladrão especializado em extrair segredos do subconsciente durante os sonhos. Ele recebe uma missão inversa: plantar uma ideia na mente de um empresário. Para isso, monta uma equipe e entra em camadas de sonhos dentro de sonhos. O filme desafia o espectador com sua complexa estrutura narrativa e reflexões sobre realidade e culpa, sendo uma das obras mais intrigantes e criativas do cinema moderno.",
+        "nota": 8.8,
+        "release": 2010
+    },
+    {
+        "id": 30,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/30-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/30-wpp.jpg",
+        "categoria": "Filmes",
+        "title": "Whiplash",
+        "tipo": "filme",
+        "genre": [
+            "Drama",
+            "Música"
+        ],
+        "desc": "Baterista enfrenta professor exigente em conservatório de elite.",
+        "text": "Whiplash segue Andrew, um jovem baterista determinado a se tornar um dos melhores. Ele entra em um conservatório renomado e passa a ser treinado por Terence Fletcher, um instrutor implacável que usa métodos abusivos para extrair excelência. O filme explora os limites da ambição, do perfeccionismo e da relação entre mestre e aprendiz. Com atuações intensas e ritmo frenético, é um drama poderoso sobre sacrifício e superação.",
+        "nota": 8.5,
+        "release": 2014
+    },
+    {
+        "id": 31,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/31-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/31-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Breaking Bad",
+        "tipo": "serie",
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "desc": "Professor de química vira fabricante de drogas.",
+        "text": "Breaking Bad conta a transformação de Walter White, um professor de química diagnosticado com câncer, que começa a produzir metanfetamina para sustentar sua família. Com a ajuda do ex-aluno Jesse Pinkman, ele mergulha no mundo do crime e perde sua moralidade gradualmente. A série é conhecida por sua narrativa intensa, personagens complexos e desenvolvimento psicológico, sendo amplamente aclamada como uma das melhores já produzidas.",
+        "nota": 9.5,
+        "release": 2008
+    },
+    {
+        "id": 32,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/32-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/32-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Stranger Things",
+        "tipo": "serie",
+        "genre": [
+            "Ficção Científica",
+            "Suspense"
+        ],
+        "desc": "Crianças enfrentam fenômenos sobrenaturais em uma cidadezinha.",
+        "text": "Stranger Things começa com o desaparecimento de um garoto em uma cidade pequena dos anos 80. Seus amigos iniciam uma busca e acabam encontrando uma garota com poderes psíquicos chamada Eleven. Enquanto eventos sobrenaturais acontecem, uma conspiração do governo e uma dimensão paralela chamada Mundo Invertido são reveladas. A série mistura nostalgia, terror e ficção científica com um elenco carismático e narrativa envolvente.",
+        "nota": 8.9,
+        "release": 2016
+    },
+    {
+        "id": 33,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/33-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/33-wpp.jpg",
+        "categoria": "Séries",
+        "title": "The Office",
+        "tipo": "serie",
+        "genre": [
+            "Comédia"
+        ],
+        "desc": "Funcionários de um escritório enfrentam situações hilárias no dia a dia.",
+        "text": "The Office retrata o cotidiano dos funcionários da filial da empresa de papel Dunder Mifflin em Scranton. Com um estilo de falso documentário, a série acompanha o excêntrico chefe Michael Scott e sua equipe em situações hilárias e absurdas. A série se destaca pelo humor desconfortável, personagens cativantes e pela evolução emocional de seus protagonistas, sendo um marco da comédia televisiva moderna.",
+        "nota": 8.9,
+        "release": 2005
+    },
+    {
+        "id": 34,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/34-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/34-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Game of Thrones",
+        "tipo": "serie",
+        "genre": [
+            "Fantasia",
+            "Drama",
+            "Ação"
+        ],
+        "desc": "Famílias nobres disputam o trono dos Sete Reinos.",
+        "text": "Game of Thrones adapta a série de livros de George R. R. Martin, acompanhando a luta de várias famílias nobres pelo Trono de Ferro. Com personagens complexos, política, intrigas e batalhas épicas, a série conquistou o mundo com sua imprevisibilidade e qualidade de produção. Apesar do final controverso, marcou época com momentos icônicos, como Casamento Vermelho e a ascensão de Daenerys, tornando-se uma das mais vistas da história.",
+        "nota": 9.3,
+        "release": 2011
+    },
+    {
+        "id": 35,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/35-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/35-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Dark",
+        "tipo": "serie",
+        "genre": [
+            "Suspense",
+            "Ficção Científica"
+        ],
+        "desc": "Mistérios do tempo e famílias entrelaçadas em cidade alemã.",
+        "text": "Dark é uma série alemã que começa com o desaparecimento de uma criança em Winden, revelando uma trama complexa de viagens no tempo que conecta quatro famílias por gerações. Conforme segredos são expostos, uma teia de paradoxos e eventos cíclicos desafia a lógica e a percepção do tempo. A série é conhecida por sua densidade, atmosfera sombria e inteligência, sendo uma das produções mais elogiadas da Netflix.",
+        "nota": 8.8,
+        "release": 2017
+    },
+    {
+        "id": 36,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/36-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/36-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Better Call Saul",
+        "tipo": "serie",
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "desc": "Prequela de Breaking Bad, mostrando a origem do advogado Saul.",
+        "text": "Better Call Saul é o prelúdio de Breaking Bad e acompanha Jimmy McGill, um advogado esforçado que aos poucos se transforma no inescrupuloso Saul Goodman. A série explora a origem de diversos personagens do universo Breaking Bad, mostrando as escolhas morais e dilemas que moldam suas trajetórias. Com atuações excepcionais e narrativa cuidadosa, é um drama jurídico e psicológico de altíssimo nível.",
+        "nota": 8.9,
+        "release": 2015
+    },
+    {
+        "id": 37,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/37-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/37-wpp.jpg",
+        "categoria": "Séries",
+        "title": "The Mandalorian",
+        "tipo": "serie",
+        "genre": [
+            "Ação",
+            "Ficção Científica"
+        ],
+        "desc": "Caçador de recompensas vaga pela galáxia protegendo uma criança misteriosa.",
+        "text": "The Mandalorian segue um caçador de recompensas solitário nos confins da galáxia, que muda sua vida ao encontrar uma misteriosa criança sensível à Força, apelidada de Baby Yoda. Ambientada no universo Star Wars, entre os episódios VI e VII, a série combina ação, elementos de faroeste e laços emocionais. Sua produção de ponta e personagens carismáticos renderam aclamação e renovaram o interesse pela franquia.",
+        "nota": 8.7,
+        "release": 2019
+    },
+    {
+        "id": 38,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/38-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/38-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Loki",
+        "tipo": "serie",
+        "genre": [
+            "Ficção Científica",
+            "Aventura"
+        ],
+        "desc": "O deus da trapaça embarca em aventuras temporais.",
+        "text": "Loki acompanha o deus da trapaça após os eventos de Vingadores: Ultimato, onde ele escapa com o Tesseract e acaba capturado pela Autoridade de Variância Temporal. Para evitar ser apagado, Loki ajuda a investigar ameaças multiversais e acaba confrontando versões alternativas de si mesmo. A série mistura ficção científica, aventura e filosofia, desenvolvendo o personagem de forma inédita e introduzindo conceitos centrais do multiverso Marvel.",
+        "nota": 8.2,
+        "release": 2021
+    },
+    {
+        "id": 39,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/39-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/39-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Sherlock",
+        "tipo": "serie",
+        "genre": [
+            "Mistério",
+            "Drama",
+            "Crime"
+        ],
+        "desc": "Versão moderna do detetive Sherlock Holmes e Dr. Watson.",
+        "text": "Sherlock traz uma versão moderna do famoso detetive criado por Arthur Conan Doyle. Ambientada em Londres contemporânea, a série mostra Sherlock Holmes e Dr. John Watson resolvendo crimes complexos com lógica afiada e métodos excêntricos. Com episódios longos, narrativa intensa e performances marcantes de Benedict Cumberbatch e Martin Freeman, tornou-se um dos maiores sucessos britânicos da década.",
+        "nota": 9.1,
+        "release": 2010
+    },
+    {
+        "id": 40,
+        "thumb": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/40-card.jpg",
+        "main": "https://res.cloudinary.com/marcos-grando/image/upload/project-intensivando/40-wpp.jpg",
+        "categoria": "Séries",
+        "title": "Black Mirror",
+        "tipo": "serie",
+        "genre": [
+            "Ficção Científica",
+            "Drama"
+        ],
+        "desc": "Cada episódio apresenta uma história distópica sobre tecnologia.",
+        "text": "Black Mirror é uma antologia de ficção científica que explora o lado obscuro da tecnologia e seus impactos sociais. Cada episódio é uma história independente que mergulha em futuros distópicos, dilemas éticos e consequências imprevistas da inovação digital. A série provoca reflexões profundas sobre privacidade, identidade, dependência tecnológica e humanidade, sendo uma das produções mais provocativas da TV contemporânea.",
+        "nota": 8.8,
+        "release": 2011
+    }
+]

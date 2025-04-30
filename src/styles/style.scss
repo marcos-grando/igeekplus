@@ -1,0 +1,32 @@
+@use './variables' as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    isolation: auto !important;
+    unicode-bidi: normal !important;
+}
+html,
+body {
+    background-color: $cor-bg;
+    font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+    line-height: 1.25;
+    width: 100%;
+
+    color: $cor-textClaro;
+}
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+

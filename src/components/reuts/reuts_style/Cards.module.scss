@@ -1,0 +1,87 @@
+@use '../../../styles/variables' as *;
+
+@keyframes enterCard {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+        filter: blur(10px);
+    } to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+.card {
+    border-radius: 2px;
+    width: 100%; height: auto; 
+    aspect-ratio: 2/3;
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    animation: enterCard 650ms ease-out both;
+
+    .cardContent {
+        background-color: #000b13d0;
+        height: 100%; width: 100%;
+        padding: 1em;
+
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        position: absolute;
+        top: 0; left: 0;
+        opacity: 0;
+        transition: all 350ms ease-out;
+
+        .cardTipo {
+            border-bottom: 1px solid $cor-atrat;
+            width: max-content;
+            padding: 0 10px 3px 10px;
+            font-size: 0.8em; font-weight: 600;
+        }
+        .cardTitle { 
+            font-size: 1.2em;
+            font-weight: 600;
+            margin: 10px 0 5px 0;
+        }
+        .cardNota {
+            font-size: 0.8em;
+            font-weight: 400;
+            position: absolute;
+            bottom: 1em; right: 1em;
+            
+            span {
+                font-size: 0.7em;
+            }
+        }
+        .cardDesc { 
+            font-size: 0.8em;
+            font-weight: 300;
+            opacity: 0.85;
+        }
+        .cardRelease { 
+            font-size: 0.8em;
+            font-weight: 400;
+            position: absolute;
+            bottom: 1em; left: 1em;
+        }
+    }
+    img {
+        height: 100%; width: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: all 250ms ease-out;
+    }
+    &:hover {
+        .cardContent {
+            opacity: 1;        
+        }
+        img {
+            transform: scale(1.05);
+        }
+    }
+}

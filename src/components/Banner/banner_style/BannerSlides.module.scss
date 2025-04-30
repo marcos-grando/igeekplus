@@ -1,0 +1,72 @@
+@use './variablesBanner' as *;
+@use '../../../styles/variables' as *;
+
+@keyframes showImage { // next img -> active img
+    to {
+        border-radius: 0;
+        height: 100%; width: 100%;
+        bottom: 0; right: 0;
+        opacity: 1;
+    }
+}
+@keyframes outImage { // active img -> next img
+    to {
+        border-radius: $cardBordRad;
+        height: $cardHeight; width: $cardWidth;
+        bottom: $thumbsDistance;
+        right: calc( $cardWidth * 1.5 + 3em );
+        filter: blur(0);
+        z-index: 15;
+    }
+}
+
+.imgBanner {
+    height: 100%; width: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+}
+.shadowBack {
+    background: linear-gradient(to right, $cor-imgShadow, transparent);
+    height: 100%; width: 40%;
+
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 16;
+}
+.shadowDown {
+    background: linear-gradient(to bottom, transparent, $cor-bg);
+    height: $shadowDownHeight; width: 100%;
+
+    position: absolute;
+    bottom: 0; left: 0;
+    z-index: 16;
+}
+
+.prev {
+    z-index: 1;
+}
+
+.active {
+    border-radius: 0;
+    height: 100%; width: 100%;
+    bottom: 0; right: 0;
+    z-index: 2;
+}
+.outImage:nth-of-type(2) {
+    filter: blur(5px);
+    animation: outImage $timeAnimPrev ease-out 1 forwards;
+}
+
+.next {
+    border-radius: 5px;
+    height: $cardHeight; width: $cardWidth;
+
+    bottom: 3em; right: calc( $cardWidth * 1.5 + 3em );
+    opacity: 0;
+    z-index: 3;
+}
+.showImage {
+    z-index: 11;
+    animation: showImage $timeAnimNext ease-in-out 1 forwards;
+}

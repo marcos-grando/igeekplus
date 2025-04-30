@@ -1,0 +1,61 @@
+@use '../../../styles/variables' as *;
+
+.wrapper {
+    height: auto; width: 100%;
+    margin: 50px 0;
+
+    .container {
+        width: 100%; max-width: $container-maxWidth;
+        margin: 0 auto;
+        padding: 0 $distGap;
+
+        .list {
+            // border: 1px solid red;
+            display: flex; flex-wrap: wrap;
+            justify-content: center;
+            gap: 2em 2em;
+
+            .item {
+                padding: 0 0.5em 5px 0.5em;
+                color: $cor-textClaro;
+                font-weight: 300;
+
+                position: relative;
+                cursor: pointer;
+                transition: color 350ms ease-out, transform 350ms ease;
+                
+                &:hover {
+                    color: $cor-atrat;
+                }
+                &::after {
+                    content: "";
+                    background-color: $cor-atrat2;
+                    height: 2px; width: 100%;
+
+                    position: absolute;
+                    bottom: 0; left: 0;
+                    transform: scaleX(0);
+
+                    opacity: 0;
+                    transform-origin: left;
+                    transition: all 450ms ease-out;
+                }
+                &:hover::after {
+                    transform: scaleX(0.5);
+                    opacity: 0.7;
+                }
+                &:active::after,
+                &.active::after {
+                    transform: scaleX(1);
+                    opacity: 1;
+                }
+                &:hover {
+                    transform: scale(1.05);
+                }
+                &.active {
+                    color: $cor-atrat;
+                }
+            }
+        }
+    }
+}

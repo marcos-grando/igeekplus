@@ -1,0 +1,82 @@
+@use '../../styles/variables' as *;
+
+$cor-headerShadow: #000f0e65;
+.headerBlur {
+    backdrop-filter: blur(5px);
+    transition: all 350ms ease-out;
+}
+.header {
+    background-color: $cor-headerShadow;
+    height: auto;
+    width: 100%;
+
+    position: fixed;
+    z-index: 101;
+    transition: all 250ms ease-out;
+
+    .container {
+        width: 100%; max-width: $container-maxWidth;
+        padding: 20px 15px 15px 15px;
+        margin: 0 auto;
+        text-shadow: 1px 1px 1px $cor-headerShadow;
+
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            span {
+                color: $cor-atrat;
+            }
+        }
+
+        nav {
+
+            ul {
+                height: 100%;
+
+                display: flex;
+                align-items: center;
+                gap: 1em;
+                position: relative;
+
+                li {
+                    .link {
+                        padding: 5px;
+                        color: $cor-textClaro;
+                        font-size: 15px;
+                        font-weight: 400;
+
+                        position: relative;
+                        cursor: pointer; 
+                        
+                        &::after {
+                            content: "";
+                            background-color: $cor-atrat;
+                            height: 2px; width: 100%;
+
+                            position: absolute;
+                            bottom: 0; left: 0;
+
+                            transform: scaleX(0);
+                            opacity: 0;
+                            transform-origin: left;
+                            transition: all 450ms ease-out;
+                        }
+                        &:hover::after {
+                            transform: scaleX(0.7);
+                            opacity: 0.7;
+                        }
+                        &:active::after,
+                        &.active::after {
+                            transform: scaleX(1);
+                            opacity: 1;
+                        }
+                    }
+                }
+                .search {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@use './variablesBanner' as *;
+@use '../../../styles/variables' as *;
+
+.banner {
+    height: 1000px; width: 100%;
+    max-height: 100vh; min-height: 60vh;
+
+    display: flex;
+
+    position: relative;
+    overflow: hidden;
+
+       
+    .timeBar {
+        background: linear-gradient(to left, $cor-atrat 40%, $cor-atrat2);
+        height: 5px; width: 100%;
+
+        position: absolute;
+        top: 0; left: 0;
+        z-index: 10001;
+    }
+}

@@ -1,0 +1,30 @@
+:global {
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: aliceblue;
+    }
+    .swiper-pagination-bullet {
+        background: #ccccccbb;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.349);
+        height: 14px; width: 14px;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background: turquoise;
+        height: 16px; width: 16px;
+    }
+}
+  
+.bannerSlide {
+    height: 60vh;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+    .swiperBase {
+        height: 100%;
+
+        .swiperWrapper {
+            height: 100%;
+        }
+    }
+}

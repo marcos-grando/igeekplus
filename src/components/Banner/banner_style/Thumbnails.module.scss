@@ -1,0 +1,63 @@
+@use './variablesBanner' as *;
+@use '../../../styles/variables' as *;
+
+@keyframes ocultCard {
+    to {
+        opacity: 0;
+    }
+}
+@keyframes desocultCard {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes nextMoveThumbs {
+    to {
+        transform: translateX( calc( (100% + 1em) * -1 ) );
+    }
+}
+@keyframes prevMoveThumbs {
+    to {
+        transform: translateX( calc( 100% + 1em ) );
+    }
+}
+.container {
+    border-radius: 3px;
+    display: flex;
+    gap: 1em;
+    
+    position: absolute;
+    bottom: $thumbsDistance; right: 0;
+    transform: translateX( calc($cardWidth * 1.5) );
+    z-index: 15;
+
+    .card {
+        box-shadow: 1px 1px 2px #000000b2;
+        border-radius: $cardBordRad;
+        height: $cardHeight; width: $cardWidth;
+        filter: opacity(0.95);
+        overflow: hidden;
+
+        img {
+            height: 100%; width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .showThumb {
+
+        &:nth-of-type(1) {
+            animation: ocultCard 250ms ease-out 1 forwards;
+        }
+        &:not(:nth-of-type(1)) {
+            animation: nextMoveThumbs $timeAnimNext ease-out 1 forwards;
+        }
+    }
+    .outThumb {
+        animation: prevMoveThumbs $timeAnimPrev ease-out 1 forwards;
+    }
+    .thumbHere:first-of-type {
+        opacity: 0;
+        animation: desocultCard 450ms ease-out 1 forwards;
+    }
+}

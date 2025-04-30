@@ -32,11 +32,10 @@ function Pages() {
             setOptsGenres(uniqueGenres);
         };
         fetchData();
-        setOptsGenres(null);
     }, [tipoPage]);
     
     useEffect(() => {
-        setOptsGenres(null);
+        setOptSelected(null);
     }, [tipoPage])
 
     const cardListFilter = allContents.filter(item =>

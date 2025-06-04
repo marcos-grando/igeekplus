@@ -12,7 +12,7 @@ function Card({ eachContent, timeDelay }) {
     let tipo = tipoCateg[eachContent.tipo];
     let title = eachContent.title;
     let nota = eachContent.nota;
-    let desc = eachContent.desc;
+    let descr = eachContent.descr;
     let release = `${tipoCateg[eachContent.tipo]} de ${eachContent.release}`
 
     return (
@@ -26,7 +26,7 @@ function Card({ eachContent, timeDelay }) {
                 <h3 className={style.cardTipo}>     {tipo}                      </h3>
                 <h1 className={style.cardTitle}>    {title}                     </h1>
                 <h3 className={style.cardNota}>     {nota} <span>/10</span>     </h3>
-                <p  className={style.cardDesc}>     {desc}                      </p>
+                <p  className={style.cardDesc}>     {descr}                      </p>
                 <h3 className={style.cardRelease}>  {release}                   </h3>
             </div>
 

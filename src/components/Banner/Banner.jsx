@@ -4,7 +4,7 @@ import BannerSlides from "./BannerSlides";
 import Thumbnails from "./Thumbnails";
 import style from './banner_style/Banner.module.scss';
 
-function NewBanner({ listFilter }) {
+function Banner({ listFilter }) {
 
     const [listBanner, setListBanner] = useState([]);
     const [isAnimating, setIsAnimating] = useState(false);
@@ -34,4 +34,4 @@ function NewBanner({ listFilter }) {
     );
 };
 
-export default NewBanner;
+export default Banner;

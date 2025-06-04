@@ -1,30 +1,126 @@
 :global {
     .swiper-button-next,
     .swiper-button-prev {
-        color: aliceblue;
+        color: white;
+        z-index: 10;
     }
     .swiper-pagination-bullet {
-        background: #ccccccbb;
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.349);
-        height: 14px; width: 14px;
+        background: #ccccccaa;
+        width: 12px;
+        height: 12px;
+        margin: 0 5px;
         opacity: 1;
     }
     .swiper-pagination-bullet-active {
         background: turquoise;
-        height: 16px; width: 16px;
+        width: 14px;
+        height: 14px;
     }
 }
-  
+
 .bannerSlide {
-    height: 60vh;
-    margin-bottom: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 1rem;
+
+    position: relative;
     overflow: hidden;
 
-    .swiperBase {
-        height: 100%;
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(1, 14, 19, 0.93); /* ajuste a opacidade aqui */
+        z-index: 1;
+    }
+    .slideContainer {
+        height: 100%; width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
 
-        .swiperWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 2rem;
+        z-index: 2;
+
+        @media (max-width: 750px) {
+            padding-top: 4rem;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        
+        .swiperBase {
             height: 100%;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+            
+            .swiperSlide {
+                padding: 0;
+                height: max-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+        
+                .contentWrapper {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+        
+                    .image {
+                        max-height: 300px;
+                        width: auto;
+                        aspect-ratio: 1 / 1;
+                        object-fit: cover;
+                        border-radius: 0.75rem;
+                        border: 2px solid rgba(82, 82, 122, 0.5);
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                    }
+                }
+            }
+        }
+
+        .textBox {
+            // border: 1px solid red;
+            height: 120px; width: 100%;
+            min-height: 120px; max-height: 120px;
+            max-width: 450px;
+            color: #f1f5f9;
+            font-family: 'Poppins', sans-serif;
+            padding: 1rem;
+            z-index: 2;
+
+            @media (max-width: 750px) {
+                text-align: center;
+
+                h2 {
+                    width: 100%;
+
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                em {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+    
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+            }
+            em {
+                font-size: 1.1rem;
+                color: rgba(241, 245, 249, 0.6);
+                font-style: italic;
+            }
         }
     }
 }

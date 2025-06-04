@@ -1,7 +1,28 @@
-$shadowDownHeight: 20%;
-$thumbsDistance: calc( $shadowDownHeight / 2);
-$cardHeight: 220px; // 220
-$cardWidth: 160px; // 150
+
+:root {
+    --card-height: 220px;
+}
+@media (max-width: 1280px) {
+    :root {
+        --card-height: 195px;
+    }
+}
+@media (max-width: 750px) {
+    :root {
+        --card-height: 175px;
+    }
+}
+@media (max-width: 450px) {
+    :root {
+        --card-height: 150px;
+    }
+}
+
 $cardBordRad: 15px;
+$cardHeight: var(--card-height);
+$cardWidth: calc( $cardHeight / 1.35 );
+
+$shadowDownHeight: 20%;
+$thumbsDistance: calc($shadowDownHeight / 2);
 $timeAnimNext: 600ms;
 $timeAnimPrev: 500ms;

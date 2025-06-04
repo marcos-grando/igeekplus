@@ -13,7 +13,7 @@ function BannerSlides({ listBanner, tipoCateg, isAnimating, direction }) {
             thumb: item.thumb || "Carregando thumb...",
             title: item.title || "Carregando título...",
             tipo: tipoCateg[item.tipo] || "Carregando categoria...",
-            desc: item.desc || "Carregando descrição...",
+            descr: item.descr || "Carregando descrição...",
             genre: item.genre || "Carregando gêneros...",
             nota: item.nota || "Carregando nota..."
         };

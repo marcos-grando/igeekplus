@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { supabase } from "../../supabaseClient";
 import { useParams } from "react-router-dom";
 import CardsList from "../reuts/CardsList";
 import BannerPages from "./BannerPages";
@@ -22,8 +23,11 @@ function Pages() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('/contents.json');
-            const data = await response.json();
+            // const response = await fetch('/contents.json');
+            // const data = await response.json();
+            const { data, error } = await supabase.from('itens_igk').select('*');
+            if (error) return console.error(error);
+
             const dataFiltered = data.filter(item => item.tipo === tipoCateg[tipoPage]);
             setAllContents(dataFiltered);
 

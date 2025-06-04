@@ -14,11 +14,6 @@ function App() {
                 <Route path='/' element={<Home />} />
                 
                 <Route path='/search' element={<SpaceSearch />} />
-                
-                {/* <Route path='/animes' element={<CardsList />} />
-                <Route path='/series' element={<CardsList />} />
-                <Route path='/filmes' element={<CardsList />} />
-                <Route path='/animacoes' element={<CardsList />} /> */}
                 <Route path="/:tipoPage" element={<Pages />} />
             </Routes>
         </>

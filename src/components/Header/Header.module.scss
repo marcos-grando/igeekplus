@@ -14,14 +14,29 @@ $cor-headerShadow: #000f0e65;
     z-index: 101;
     transition: all 250ms ease-out;
 
+    @media (max-width: 750px) {
+        position: absolute;
+    }
+
     .container {
         width: 100%; max-width: $container-maxWidth;
-        padding: 20px 15px 15px 15px;
+        padding: 25px 15px 10px 15px;
         margin: 0 auto;
         text-shadow: 1px 1px 1px $cor-headerShadow;
 
         display: flex;
         justify-content: space-between;
+        
+        @media (max-width: 750px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            h1 {
+                display: none;
+            }
+        }
 
         h1 {
             span {

@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { supabase } from "../supabaseClient";
 import CardsList from "./reuts/CardsList";
 import Banner from "./Banner/Banner";
 import GenreOpts from "./reuts/GenreOpts";
@@ -11,17 +12,16 @@ function Home() {
     const [optSelected, setOptSelected] = useState(null);
 
     useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch('/contents.json');
-            const data = await response.json();
-            setAllContents(data);
+        const fetchSupabase = async () => {
+            const { data, error } = await supabase.from('itens_igk').select('*');
+            error ? console.error(error) : setAllContents(data);
 
             const allGenres = data.flatMap(item => item.genre || []);
             const uniqueGenres = [...new Set(allGenres)].sort();
             setOptsGenres(uniqueGenres);
         }
-        fetchData();
-    }, []);
+        fetchSupabase();
+    }, [])
 
     const bannerListFilter = useMemo(() => {
         const tipoSet = new Set();

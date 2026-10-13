@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import style from "./SpaceSearch.module.scss"
 import CardsList from "../reuts/CardsList";
-import { supabase } from "../../supabaseClient";
+import listItems from "../../data/itens_igk.json";
 
 function SpaceSearch() {
-    const [listItems, setListItems] = useState([]);
     const [searchText, setSearchText] = useState("");
-
-    useEffect(() => {
-        const fetchSupabase = async () => {
-            const { data, error } = await supabase.from('itens_igk').select('*');
-            error ? console.error(error) : setListItems(data);
-        }
-        fetchSupabase();
-    }, [])
 
     const filteredList = listItems.filter(item =>
         item.title.toLowerCase().includes(searchText.toLocaleLowerCase())

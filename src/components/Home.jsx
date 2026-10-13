@@ -1,32 +1,22 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { supabase } from "../supabaseClient";
+import React, { useMemo, useState } from "react";
+import allContents from "../data/itens_igk.json";
 import CardsList from "./reuts/CardsList";
 import Banner from "./Banner/Banner";
 import GenreOpts from "./reuts/GenreOpts";
 
 function Home() {
 
-    const [allContents, setAllContents] = useState([]);
-
-    const [optsGenres, setOptsGenres] = useState([]);
     const [optSelected, setOptSelected] = useState(null);
 
-    useEffect(() => {
-        const fetchSupabase = async () => {
-            const { data, error } = await supabase.from('itens_igk').select('*');
-            error ? console.error(error) : setAllContents(data);
-
-            const allGenres = data.flatMap(item => item.genre || []);
-            const uniqueGenres = [...new Set(allGenres)].sort();
-            setOptsGenres(uniqueGenres);
-        }
-        fetchSupabase();
-    }, [])
+    const optsGenres = useMemo(() => {
+        const allGenres = allContents.flatMap(item => item.genre || []);
+        return [...new Set(allGenres)].sort();
+    }, []);
 
     const bannerListFilter = useMemo(() => {
         const tipoSet = new Set();
         return allContents.filter(item => !tipoSet.has(item.tipo) && tipoSet.add(item.tipo));
-    }, [allContents]);
+    }, []);
 
     const cardListFilter = allContents.filter(item =>
         optSelected ? item.genre.includes(optSelected) : true

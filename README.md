@@ -1,5 +1,13 @@
 # React + Vite
 
+## Conteúdo estático
+
+O catálogo é mantido em `src/data/itens_igk.json` e importado diretamente pela home, pela busca e pelas páginas de categorias. O site não utiliza banco de dados para carregar esses conteúdos.
+
+Para atualizar o catálogo, edite esse JSON preservando os campos e os IDs dos registros, valide com `npm run build` e publique uma nova versão pela integração GitHub/Vercel. As imagens continuam hospedadas no Cloudinary.
+
+---
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
